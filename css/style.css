@@ -1,0 +1,1552 @@
+/* SCREEN (PC) */
+
+/* WEBSITE (FRONT PAGE) */
+
+/* GENERAL SETTINGS */
+/* General Settings - List Style */
+/*ul, li
+{
+    list-style: none!important;
+    margin-left: 0 !important;
+}*/
+
+/* General Settings - Shape Divider */
+.nectar-shape-divider-wrap[data-style="curve"] .nectar-shape-divider 
+{
+    filter: blur(0.1px)!important;
+    transform: scale(1.03);
+}
+
+/* General Settings - Modal */
+.model-popup-container 
+{
+    min-height: 50vh !important;
+    min-height: 50% !important;
+    max-height: 85vh !important;
+    border-radius: 10px !important;
+    overflow-y: auto !important;
+    font-family: Arial, serif !important;
+    font-size: medium !important;
+}
+
+.mega-model-popup 
+{
+    border-radius: 10px!important;
+    border-width: 0px!important;
+    margin-top: 2%!important;
+    width: 95%!important;
+    max-width: 600px!important;
+    
+    -webkit-box-shadow: 0 0 7px #404040 !important;
+    -o-box-shadow: 0 0 7px #404040 !important;
+    -ms-box-shadow: 0 0 7px #404040 !important;
+    box-shadow: 0 0 7px #404040 !important;
+}
+
+/* General Settings - Modal - Title */
+.mega-model-popup h2 
+{
+    border-radius: 0px!important;
+}
+
+/* General Settings - Modal - Box Background */
+.b-modal
+{
+    z-index: 9999!important;
+    overflow: hidden!important;
+}
+
+/* General Settings - Modal - Disables scroll when modal open */
+html.modal-open, body.modal-open 
+{
+   scroll-snap-type-y: mandatory!important;
+   -ms-scroll-snap-points-y: snapInterval(0%, 0.01%) !important;
+}
+
+/* General Settings - Modal - Footer Button */
+.model-popup-btn
+{
+    font-family: "AvenirNextCyr-Regular", sans-serif !important;
+    letter-spacing: 0.5px !important;
+    color: #dddddd!important;
+    background: rgba(0,0,0,0.0) !important;
+    margin-bottom: 10px !important;
+    padding: 0px !important;
+    font-size: 16px !important;  
+}
+
+/* General Settings - Modal - Footer Button */
+.model-popup-btn:hover
+{
+    color: #fff!important;
+    cursor: pointer!important;
+}
+
+/* General Settings - Fancy Box */
+.nectar-fancy-box[data-style="color_box_basic"]
+{
+    margin: 5px !important;
+    border-radius: 7px !important;
+    padding: 5% 7% !important;
+    
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 30px rgba(0, 0, 0, 0.05) !important;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 30px rgba(0, 0, 0, 0.05) !important;
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 30px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* General Settings - Fancy Box */
+.nectar-fancy-box[data-style="color_box_basic"] .inner h3 
+{
+   white-space: nowrap!important;
+}
+
+/*General Settings - Fancy Box - Inner Shadow */
+.main-content .nectar-fancy-box[data-style="color_box_basic"][data-color*="#"] .box-bg::after 
+{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 30px rgba(0, 0, 0, 0.05) !important;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 30px rgba(0, 0, 0, 0.05) !important;
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 30px rgba(0, 0, 0, 0.05) !important;    
+}
+
+/* General Settings - Ribbon */
+.cc-ribbon-1 {
+    background: #fde092;
+    background-image: none;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari 3-8 */
+    font-size: 13px;
+    line-height: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    text-align: center;
+    font-family: "AvenirNextCyr-Thin", sans-serif;
+    color: #444;
+    background-image: -moz-linear-gradient(-36deg, #fde092 0%, #eab065 97%);
+    background-image: -webkit-linear-gradient(-36deg, #fde092 0%, #eab065 97%);
+    background-image: -ms-linear-gradient(-36deg, #fde092 0%, #eab065 97%);
+    position: absolute;
+    width: 240px;
+    right: -90px;
+    top: 15px;
+}
+
+/* General Settings - Nectar Button */
+.nectar-button
+{
+    font-size: 14px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    padding: 10px 17px !important;
+    background-color: #292929 !important;
+    margin-top: 10px !important;  
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+    vertical-align: top!important;
+}
+
+/* General Settings - Blog Meta */
+#recent-comments-2
+{
+    display: none!important;    
+}
+
+#meta-2
+{
+    display: none!important;    
+}
+
+
+/* CUSTOM CLASSES */
+/* CC - Custom Title - 1 */
+.cc-title-1
+{
+    display: inline;
+    font-size: 50px;
+}
+
+/* CC - Custom Captions - 1 */
+.cc-captions-1
+{
+    display: inline;
+}
+
+/* HEADER */
+/* Header - Removes space before header */
+#header-space
+{
+    display: none !important;
+}
+
+/* Header - Header Line */
+#header-outer[data-format="centered-logo-between-menu"] #top .span_9, #header-outer[data-format="centered-logo-between-menu"] #top .span_9 nav 
+{
+    width: 100%;
+    height: 60px !important;
+}
+
+/* Header - Settings */
+#header-outer 
+{
+    height: 60px;
+}
+
+/* Header - Social Icons - Color */
+#top nav ul li a 
+{
+    color: #292929 !important;
+}
+
+/* Header - Social Icons */
+#header-outer #social-in-menu i, .material #slide-out-widget-area.slide-out-from-right .off-canvas-social-links a i 
+{
+    font-size: 18px !important;
+    color: #292929 !important;
+    text-align: center;
+    line-height: 24px!important;
+    height: 24px!important;
+    width: 34px;
+}
+
+/* Header - Keeps logo bigger when scrolling with custom size */
+.small-nav header#top #logo img 
+{
+    height: 100px!important;
+    margin-top: -5px;    
+} 
+
+/* Header - Keeps logo bigger */
+header#top #logo img 
+{
+    height: 100px!important;
+    margin-top: -5px;    
+} 
+
+/* NECTAR SLIDER */
+/* Nectar Slider - Disable nectar BG image at load */
+.nectar-slider-loading 
+{
+    background-image: none!important;
+}
+
+/* Nectar Slider - Line color around slider container */
+.swiper-container, .swiper-slide 
+{
+    background-color: #fff!important;
+}
+
+/* Nectar Slider - Content height */
+body .parallax_slider_outer .swiper-container, body .parallax_slider_outer.first-section .nectar-slider-wrap, body .swiper-slide, body .nectar-slider-wrap, body .swiper-container
+{
+	height: 550px!important;
+}
+    
+/* Nectar Slider - Content width */
+.nectar-slider-wrap[data-full-width="false"]:not([data-parallax="true"]) .swiper-slide[data-x-pos="right"] .content
+{
+    padding: 0px 0px 0px 0px !important;
+}
+
+/* Nectar Slider - Dark theme arrows color switched to light theme*/
+.swiper-container .slider-prev, .swiper-container .slider-next
+{
+    background-color: rgba(255,255,255,0.5) !important;
+    color: #292929 !important;
+}
+
+/* Nectar Slider - Dark theme arrows color switched to light theme*/
+.swiper-container .slider-prev i, .swiper-container .slider-next i
+{
+    color: #292929 !important;
+}
+
+/* Nectar Slider - Heading - Styling */
+.swiper-slide .content h2
+{
+    padding-left: 15px!important;
+    margin-left: 15px!important;
+    background-color: rgba(255,255,255,0.6)!important;
+    border-radius: 5px 0px 0px 5px!important;
+    
+    color: #4e4e4f !important;
+    font-family: "AvenirNextCyr-Regular", sans-serif !important;
+    font-size: 32px !important;
+    line-height: 45px !important;
+    letter-spacing: 0.5px !important;
+}
+
+/* Nectar Slider - Captions - Styling */
+.swiper-slide .content p
+{
+    margin-left: 30px!important;
+    
+    color: #505050 !important;
+    font-family: "AvenirNextCyr-Regular", sans-serif !important;
+    font-size: 22px !important;
+    line-height: 30px !important;
+    letter-spacing: 0px !important;
+}
+
+/* Nectar Slider - Content - Distance from top */	
+body .swiper-slide .content 
+{
+    top: 190px !important;
+}
+
+/* PHOTO GALLERY */
+/* Photo Gallery - Custom Class - Column spacing */
+.cc-col-1-gallery
+{
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+/* Photo Gallery - Custom Class - Row spacing and position */
+.cc-row-1-gallery
+{
+    z-index: 101;
+}
+
+/* Photo Gallery - Background */
+body .cc-row-1-gallery .row-bg
+{
+    background-size: auto !important;
+    -webkit-background-size: auto !important;
+    background-position: 50% 0% !important;
+}
+
+/* FOO GALLERY */
+/* Foo Gallery - Shadow */
+.foogallery.fg-dark.fg-shadow-small .fg-item-inner, .foogallery.fg-light.fg-shadow-small .fg-item-inner
+{
+    box-shadow: 0px 3px 4px 0px rgba(0,0,0,.2) !important;
+}
+
+/* Foo Gallery - Removes space under image */
+.foogallery .fg-image
+{
+    margin-bottom: 0 !important; 
+}
+
+/* COMPLETE SERIES */
+/* Complete Series - Custom Class - Row spacing */
+.cc-row-2-series
+{
+    margin-bottom: 60px !important;
+}
+
+/* Complete Series - Custom Class - Event album column spacing */
+.cc-col-2-series
+{
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+}
+
+/* Complete Series - Custom Class - Heading spacing */
+.cc-html-1-series
+{
+    margin-bottom: 25px!important;
+}
+
+/* VIDEO GALLERY */
+/* Video Gallery - Background */
+body .cc-row-4-video .row-bg 
+{
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    background-position: 100% 100% !important;
+}
+
+/* WHY US */
+/* Why Us - Custom Class - Row*/
+.cc-row-3-about
+{
+    margin-top: 30px !important;
+}
+
+/* Why Us - Custom Class - Paragraph */
+.cc-paragraph-1-about
+{
+    text-align: justify !important;    
+}
+
+/* Why Us - Background */
+body .cc-row-5-about .row-bg
+{
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    background-position: 0% 0% !important;
+}
+
+/* PHOTOGRAPHY PACKAGES */
+/* Photography Packages - Background */
+body .cc-row-6-pkg-1 .row-bg
+{
+   background-size: auto !important;
+  -webkit-background-size: auto !important;
+  background-position: 50% 0% !important;
+}
+
+/* Photography Packages - Primary Row Settings */
+.cc-row-8-pkg-1 
+{
+    border-radius: 20px 20px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 0px 25px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0px 0px 25px rgba(0,0,0,.3);
+    overflow: hidden !important; /* Hides extra Ribbon parts */  
+}
+
+/* Photography Packages - Package List Height */
+.cc-html-2-pkg-1
+{
+    height: 310px;
+}
+
+/* Photography Packages - Packages Settings */
+.cc-pkg-1-1, .cc-pkg-1-2, .cc-pkg-1-3, .cc-pkg-1-4, .cc-pkg-1-1 h1, .cc-pkg-1-2 h1, .cc-pkg-1-3 h1, .cc-pkg-1-4 h1 
+{
+    color: #292929 !important;
+}
+
+.cc-pkg-1-1 hr, .cc-pkg-1-2 hr, .cc-pkg-1-3 hr 
+{
+    color: rgba(255,255,255,0.4) !important;
+}
+
+.cc-pkg-1-4 hr
+{
+    color: rgba(255,255,255,0.4) !important;
+}
+
+.cc-pkg-1-1, .cc-pkg-1-2, .cc-pkg-1-3, .cc-pkg-1-4
+{
+    overflow: hidden !important; /* Hides extra ribbon parts */
+}
+
+.cc-pkg-1-1 
+{
+    background-color: #fff !important;
+    border-radius: 10px 0px 0px 0px !important;
+    border-right-width: 1px !important;
+    border-right-color: #d1d1d1 !important;
+}
+
+.cc-pkg-1-2 
+{
+    background-color: #fff !important;
+    border-radius: 0px 0px 0px 0px !important;
+    border-right-width: 1px !important;
+    border-right-color: #d1d1d1 !important;
+}
+
+.cc-pkg-1-3 
+{
+    background-color: #fff !important;
+    border-radius: 0px 0px 0px 0px !important;
+}
+
+.cc-pkg-1-4 
+{
+    background-color: #fad2cd !important;
+    border-radius: 0px 10px 0px 0px !important;
+    border-left-width: 1px !important;
+    border-left-color: #d1d1d1 !important;
+}
+
+/* VIDEOGRAPHY PACKAGES */
+/* Videography Packages - Background */
+body .cc-row-7-pkg-2 .row-bg 
+{
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    background-position: 100% 100% !important;
+}
+
+/* Videography Packages - Primary Row Settings */
+.cc-row-9-pkg-2
+{
+    border-radius: 20px 20px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 0px 25px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0px 0px 25px rgba(0,0,0,.3);
+    overflow: hidden !important; /* Hides extra Ribbon parts */
+    
+}
+
+/* Videography Packages - Package List Height */
+.cc-html-3-pkg-2
+{
+    height: 310px;
+}
+
+/* Videography Packages - Packages Settings */
+.cc-pkg-2-1, .cc-pkg-2-2, .cc-pkg-2-3, .cc-pkg-2-4, .cc-pkg-2-1 h1, .cc-pkg-2-2 h1, .cc-pkg-2-3 h1, .cc-pkg-2-4 h1 
+{
+    color: #292929 !important;
+}
+
+.cc-pkg-2-1 hr, .cc-pkg-2-2 hr, .cc-pkg-2-3 hr, .cc-pkg-2-4 hr
+{
+    color: rgba(255,255,255,0.4)!important;
+}
+
+.cc-pkg-2-1, .cc-pkg-2-2, .cc-pkg-2-3, .cc-pkg-2-4
+{
+    overflow: hidden !important; /* Hides extra Ribbon parts */
+}
+
+.cc-pkg-2-1 
+{
+    background-color: #fff !important;
+    border-radius: 10px 0px 0px 0px !important;
+    border-right-width: 1px !important;
+    border-right-color: #d1d1d1 !important;
+}
+
+.cc-pkg-2-2 
+{
+    background-color: #fff !important;
+    border-radius: 0px 0px 0px 0px!important;   
+}
+
+.cc-pkg-2-3 
+{
+    background-color: #fff !important;
+    border-radius: 0px 0px 0px 0px!important;
+    border-left-width: 1px !important;
+    border-left-color: #d1d1d1 !important;    
+}
+
+.cc-pkg-2-4 
+{
+    background-color: #b5ddda !important;
+    border-radius: 0px 10px 0px 0px!important;
+    border-left-width: 1px !important;
+    border-left-color: #d1d1d1 !important;    
+}
+
+/* TESTIMONIALS */
+/* Testimonials - Background */
+body .cc-row-10-reviews .row-bg 
+{
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    background-position: 0% 100% !important;    
+}
+/* Testimonials - Column Settings*/
+.cc-col-3-reviews
+{
+    display:inline-block !important;
+}
+
+/* Testimonials - Left Side Settings */
+.cc-text-1-reviews
+{
+    top: 0px;
+    height: 700px;
+    width: 30%;
+    text-align: left !important;
+    position: absolute;
+    
+    /*-webkit-transform: translateY(-50%);
+    transform: translateY(-50%);*/
+    
+    z-index: 50;
+    
+    box-shadow: 20px 5px 25px -30px rgb(0,0,0);
+    -webkit-box-shadow: 20px 5px 25px -30px rgb(0,0,0);
+	-moz-box-shadow: 20px 5px 25px -30px rgb(0,0,0);
+}
+
+/* Testimonials - Slider */
+.testimonial_slider[data-style="multiple_visible_minimal"] .flickity-viewport 
+{
+    overflow: hidden;
+    position: relative;
+    margin-left: 30%;
+    width: 100%;
+}
+
+/* Testimonials - Slider - Cell Outer Settings */
+.testimonial_slider[data-style="multiple_visible_minimal"] blockquote 
+{
+    width: 30%;
+    padding-top: 80px !important;
+    padding-bottom: 60px !important;
+    padding-right: 0.7%;
+    padding-left: 0.7%;
+    
+    transform: translateX(0%)!important; /* Initial position of Slider */
+}
+
+/* Testimonials - Slider - Cell Inner Settings & Shadows */
+.testimonial_slider[data-style="multiple_visible_minimal"][data-add-border="true"] blockquote .inner 
+{
+    border: none;
+    border-radius: 8px;    
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 30px;    
+    background-color: #fff;
+    text-align: left;
+    
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 30px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 30px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Testimonials - Slider - Cell Disable Title Row */
+.testimonial_slider[data-style*="multiple_visible"] blockquote span.title, .nectar_single_testimonial span.title 
+{
+    font-size: 14px !important;
+    display: none;
+}
+
+/* Testimonials - Slider - Cell Paragraph Settings */
+.testimonial_slider p 
+{
+    font-size: 15px !important;
+    line-height: 20px !important;
+    margin-top: 8px !important;
+}
+
+/* Testimonials - Slider - Picture Settings */
+.testimonial_slider[data-style="multiple_visible_minimal"] .image-icon, .nectar_single_testimonial .image-icon 
+{
+    width: 130px;
+    height: 130px;
+
+    display: block;
+    
+    margin-top: -116px;    
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: 0 -3px 4px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 -3px 4px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 -3px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* VENDORS */
+/* Vendors - Logo Size */
+.vendor-logo-large
+{
+    width: 260px !important;
+}
+
+/* CONTACT US */
+/* Contact Us - Background */
+body .cc-row-11-contact .row-bg
+{
+   background-size: auto !important;
+   -webkit-background-size: auto !important;
+   background-position: 50% 0%!important;
+}
+
+/* Contact Us - Contact Form - Form Settings */
+.wpcf7
+{
+    width: 100% !important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    margin-bottom: 100px !important;
+    padding: 0 !important;
+    text-align: center!important;
+    border: none!important;
+    background-color: none!important;
+}
+
+/* Contact Us - Contact Form - Space between fields */
+.wpcf7 p
+{
+    padding-bottom: 10px!important;
+}
+
+/* Contact Us - Contact Form - Text Field Settings */
+.wpcf7-form-control-wrap
+{
+    background-color: #fff!important;
+    border-radius: 40px;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+   
+    -webkit-box-sizing: inherit!important;
+    -moz-box-sizing: inherit!important;
+    box-sizing: inherit!important;
+    
+    -webkit-box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.1), 0px 0px 5px -2px rgba(68,68,68,.5);
+    -moz-box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.1), 0px 0px 5px -2px rgba(68,68,68,.5);
+    box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.1), 0px 0px 5px -2px rgba(68,68,68,.5);
+}
+
+/* Contact Us - Contact Form - Text Field - Name, Email, Phone */
+.wpcf7-text
+{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    background-color: transparent !important;    
+}
+
+/* Contact Us - Contact Form - Cell - Select Cell */
+.wpcf7-select 
+{
+    text-align: center!important;
+    font-size: 14px !important;
+}
+
+/* Contact Us - Contact Form - Cell - Date Cell */
+body[data-form-style="minimal"] input[type="date"] 
+{
+    text-align: center!important;
+    font-size: 14px !important;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.16) !important;
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.16)!Important;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.16)!Important;
+    -o-box-shadow: 0 1px 2px rgba(0,0,0,0.16)!Important;
+    padding: 0 !important;
+}
+
+/* Contact Us - Contact Form - Cell - Date Cell */
+.wpcf7-validates-as-date 
+{
+    text-align: center !important;
+}
+
+/* Contact Us - Contact Form - Text Field - Custom Message */
+.wpcf7-textarea
+{
+    border: 0 !important;
+    min-height: 100px !important;
+
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    background-color: transparent !important;
+    text-align: left !important;
+    resize: both !important;
+}
+
+/* Contact Us - Contact Form - Text Field - Alert Message */
+.wpcf7-not-valid-tip
+{
+    background-color: #fad2cd !important;
+    color: #292929 !important;
+}
+
+/* Contact Us - Contact Form - Alert Message */
+.wpcf7-response-output
+{
+    border-radius: 7px;
+    color: #292929 !important;    
+}
+
+/* Contact Us - Contact Form - Alert Message */
+.wpcf7-validation-errors
+{
+    background-color: #fad2cd !important;
+}
+
+/* Contact Us - Contact Form - Cell - Text Settings */
+body[data-form-style="minimal"] input[type="text"], 
+body[data-form-style="minimal"] input[type="email"], 
+body[data-form-style="minimal"] input[type="password"], 
+body[data-form-style="minimal"] input[type="tel"], 
+body[data-form-style="minimal"] input[type="url"], 
+body[data-form-style="minimal"] input[type="search"], 
+body[data-form-style="minimal"] input[type="date"] 
+{
+    text-align: center !important;
+    height: 40px !important;
+}
+
+/* Contact Us - Contact Form - Message Cell - Text Settings */
+body[data-form-style="minimal"] .minimal-form-input.filled input, 
+body[data-form-style="minimal"] .minimal-form-input.has-text input, 
+body[data-form-style="minimal"] .minimal-form-input.filled textarea, 
+body[data-form-style="minimal"] .minimal-form-input.has-text textarea 
+{
+    color: #4e4e4e !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+}
+
+/* Contact Us - Contact Form - Button Settings */
+.wpcf7-submit 
+{
+    /* font-family: "AvenirNextCyr-Regular", sans-serif !important; */
+    font-size: 14px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    padding: 10px 17px !important;
+    background-color: #292929 !important;
+    margin-top: 10px !important;
+}
+
+/* Contact Us - Contact Form - Button Settings */
+body[data-form-submit="regular"] .container-wrap input[type="submit"]
+{
+    padding: 10px 17px !important;    
+}
+
+/* Contact Us - Contact Form - AJAX Loader - Hide */ /* Also plays role in Button aligning */
+div.wpcf7 .ajax-loader 
+{
+    visibility: hidden !important;
+    display: none !important;
+}
+
+/* Contact Us - Contact Info on the Right */
+.cc-col-4-contact
+{
+    margin-top: 23px !important;
+}
+
+/* FOOTER */
+/* Footer - Widget Settings */
+#footer-outer .widget 
+{
+    margin-bottom: 0px!important;
+}
+
+/* Footer - Menu - Icon Settings */
+body #footer-outer i
+{
+    width: 32px !important;
+}
+
+/* Footer - Menu - Link Hover */
+#footer-outer a:hover {
+    color: #ffffff!important;
+}
+
+/* Footer - Menu - Link text color */
+#footer-outer a {
+    color: #ffffff!important;
+}
+
+/* Footer - Menu - Custom Settings */
+.footer-menu-title 
+{
+    font-family: "AvenirNextCyr-Regular", sans-serif !important;
+    font-size: 18px !important;
+    color: #b88d47 !important;
+    /* font-weight: bold!important; */
+    letter-spacing: 0.5px !important;
+    padding-bottom: 10px !important;
+}
+
+.footer-menu-item 
+{
+    font-family: "AvenirNextCyr-Regular", sans-serif !important;
+    font-size: 16px !important;
+    color: #f2f2f2 !important;
+    letter-spacing: 0.5px !important;
+    padding-bottom: 5px !important;
+}
+
+.footer-menu-contact 
+{
+    font-family: "AvenirNextCyr-Regular", sans-serif !important;
+    font-size: 16px !important;
+    color: #f2f2f2 !important;
+    letter-spacing: 0.5px !important;
+    padding-bottom: 5px !important;
+}
+
+.footer-menu-last 
+{
+    font-family: "AvenirNextCyr-Regular", sans-serif !important;
+    font-size: 16px !important;
+    color: #f2f2f2 !important;
+    letter-spacing: 0.5px !important;
+    padding-bottom: 30px !important;
+}
+
+.footer-menu-link {
+    text-decoration: none!important;
+}
+
+/* INSTAGRAM WIDGET */
+/* Instagram Widget - Overal position */
+#sb_instagram 
+{
+    margin-top: -15px;
+}
+
+/* Instagram Widget - Avatar on hover align */
+#sb_instagram .sbi_header_img_hover i 
+{
+    top: 39% !important;
+}
+
+/* Instagram Widget - Video play button align */
+.sbi_type_video .sbi_playbtn 
+{
+    top: 39% !important;
+    left: 42% !important;
+}
+
+/* Instagram Widget - Widget Button */
+#sb_instagram #sbi_load .sbi_follow_btn 
+{
+    margin-left: 0px !important;
+}
+
+/* Instagram Widget - Widget Button Text & Color */
+#sb_instagram .sbi_follow_btn a 
+{
+    margin: 10px auto 5 auto!important;
+    font-size: 14px !important;
+    line-height: 20px!important;   
+    color: #fff !important;
+	
+    background: -moz-linear-gradient(45deg, rgba(248,201,2,1) 0%, rgba(211,47,143,1) 34%, rgba(80,84,210,1) 100%)!important;
+    background: -webkit-linear-gradient(45deg, rgba(248,201,2,1) 0%,rgba(211,47,143,1) 34%,rgba(80,84,210,1) 100%)!important;
+    background: linear-gradient(45deg, rgba(248,201,2,1) 0%,rgba(211,47,143,1) 34%,rgba(80,84,210,1) 100%)!important;
+	
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8c902', endColorstr='#5054d2',GradientType=1 );
+}
+
+/* Instagram Widget - Button Icon */
+#sb_instagram #sbi_load .fa, #sb_instagram .sbi_follow_btn .fa 
+{
+    margin-top:0px!important;
+    margin-bottom: -1px;
+    margin-right: 7px;
+    font-size: 20px!important;
+}
+
+/* COPYRIGHT AREA */
+/* Copyright Area - Settings */
+.span_5 {
+    width: 100%!important;
+    text-align: center !important;
+}
+
+
+/* PAGE (COMPLETE SERIES) */
+
+/* Series - Background */
+body .cc-row-13-series .row-bg
+{
+    background-size: auto!important;
+    -webkit-background-size: auto!important;
+    background-position: 50% 0%!important;
+}
+
+/* Series - Custom Class - Space between pictures */
+.cc-img-1
+{
+    margin-bottom: 6px !important;
+}
+
+/* Series -  Album - Custom Class - Album header alignment */
+
+.cc-html-4-series
+{
+    text-align: center !important;
+}
+
+/* Series -  Album - Custom Class - Row padding */
+.cc-row-12-series
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 90px!important;
+}
+
+/* PAGE (BLOG) */
+body .cc-row-14-blog .row-bg
+{
+    background-size: auto!important;
+    -webkit-background-size: auto!important;
+    background-position: 50% 0%!important;
+}
+
+
+/* PAGE (SINGLE POST) */
+.single.single-post .heading-title
+{
+    padding-top: 60px!important;
+}
+
+.single.single-post
+{
+    background-image: url(https://kqproduction.com/wp-content/uploads/2019/11/2019_KQ_Background_Basic_v3.jpg); 
+    background-position: center top; 
+    background-repeat: no-repeat; 
+    /*background-color: #ffffff;*/
+    background-size: auto !important;
+    -webkit-background-size: auto !important;
+    background-position: 50% 0% !important;
+}
+
+.single.single-post .container-wrap
+{
+    background-color: transparent!important;
+}
+
+.single.single-post h1
+{
+    font-weight: 400!important;
+}
+
+.single.single-post a
+{
+    color: #b88d47!important;
+}
+
+/*.single ul, .single li
+{
+    list-style: round!important;
+    margin-left: 20px !important;
+}*/
+
+
+.single .comments-section
+{
+    display: none!important; 
+}
+
+
+/*.single-post #page-header-wrap,
+.single-post .heading-title {
+    display: none!important;
+}*/
+
+/* PAGE(FAQ) */
+body .cc-row-15-faq .row-bg
+{
+    background-size: auto!important;
+    -webkit-background-size: auto!important;
+    background-position: 50% 0%!important;
+}
+
+
+/* SCREEN (TABLET & MOBILE) */
+@media only screen and (min-width: 1px) and (max-width: 999px){
+
+    /* WEBSITE (FRONT PAGE) */
+        
+    /* HEADER */
+    /* Header - Logo Height and position */
+    body header#top #logo img, #header-outer[data-permanent-transparent="false"] #logo .dark-version 
+    {
+        height: 70px !important;
+        margin-top: -12px !important;
+        top: 0px !important;
+        padding: 0px !important;
+    }
+
+    /* Header - Height */
+    body #header-outer[data-permanent-transparent="false"] 
+    {
+    height: 50px !important;
+    }
+
+    /* Header - Header color and transparecy */
+    #header-outer[data-mobile-fixed="1"], #header-outer[data-permanent-transparent="1"][data-mobile-fixed="1"], #mobile-menu[data-mobile-fixed="1"] 
+    {
+        background: rgba(0,0,0,0.95) !important;
+    }
+
+    /* Header - No space before header */
+    body #header-space[data-header-mobile-fixed="1"] 
+    {
+        display: none !important;
+    }
+
+    /* MENU */
+    /* Menu - Settings */
+    body.original[data-is="minimal"] #header-outer[data-has-menu="true"] .lines-button, body.ascend[data-is="minimal"] #header-outer[data-has-menu="true"] .lines-button 
+    {
+        top: -10px !important;
+    }
+
+    /* Menu - Font */
+    #slide-out-widget-area .inner .off-canvas-menu-container li a 
+    {
+        text-transform: uppercase;
+        font-weight: normal;
+        letter-spacing: 0;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+/* SCREEN (TABLET LARGE) */
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+
+    /* WEBSITE (FRONT PAGE) */
+
+    /* NECTAR SLIDER */
+    /* Nectar Slider - Height (Standard) */
+    .nectar-slider-wrap[data-full-width="false"] .swiper-slide .content h2, #boxed .nectar-slider-wrap[data-full-width="false"] .swiper-slide .content h2 
+    {
+        font-size: 30px !important;
+        line-height: 42px !important;
+    }
+
+    /* Nectar Slider - Captions - Styling */    
+    .nectar-slider-wrap[data-full-width="false"] .swiper-slide .content p 
+    {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+
+    /* HEADER */
+    /* Header - Menu - Styling */	
+    header#top nav > ul > li > a 
+    {
+        margin-right: 7px !important;
+        margin-left: 7px !important;
+        letter-spacing: -0.5px !important;
+    }	
+}
+
+
+/* SCREEN (TABLET SMALL) */
+@media only screen and (min-width: 690px) and (max-width: 999px) {
+
+    /* WEBSITE (FRONT PAGE) */
+
+    /* NECTAR SLIDER */
+    /* Nectar Slider - Height */
+    body .parallax_slider_outer .swiper-container, body .parallax_slider_outer.first-section .nectar-slider-wrap, body .swiper-slide, body .nectar-slider-wrap, body .swiper-container 
+    {
+        height: 450px!important;
+    }
+        
+    /* Nectar Slider - Distance from top */	
+    body .swiper-slide .content 
+    {
+        top: 80px !important;
+    } 
+
+    /* WHY US */
+    .cc-row-3-about
+    {
+        margin-top: -10px !important;
+    }
+
+    /* PHOTOGRAPHY PACKAGES */
+    .cc-pkg-1-1, .cc-pkg-1-2, .cc-pkg-1-3, .cc-pkg-1-4 
+    {
+        padding: 3% !important;
+    }
+
+    .cc-html-2-pkg-1
+    {
+        height: 260px;
+    }
+
+    .cc-pkg-1-1
+    {
+        border-right-width: 0px !important;
+        border-bottom-width: 1px !important;
+        border-bottom-color: #d1d1d1 !important;
+    }
+
+    .cc-pkg-1-2 
+    {
+        border-radius: 0px 10px 0px 0px !important;
+        border-right-width: 0px !important;
+        border-left-width: 1px !important;
+        border-left-color: #d1d1d1 !important;
+        border-bottom-width: 1px !important;
+        border-bottom-color: #d1d1d1 !important;
+    }
+
+    .cc-pkg-1-3, .cc-pkg-1-4 
+    {
+        border-radius: 0px 0px 0px 0px !important; 
+        padding-bottom: 80px !important;
+    }
+
+    /* VIDEOGRAPHY PACKAGES */
+    .cc-pkg-2-1, .cc-pkg-2-2, .cc-pkg-2-3, .cc-pkg-2-4 
+    {
+        padding: 3% !important;
+    }
+
+    .cc-html-3-pkg-2
+    {
+        height: 260px;
+    }
+
+    .cc-pkg-2-2 
+    {
+        border-radius: 0px 10px 0px 0px !important;
+    }
+
+    .cc-pkg-2-3
+    {
+        border-left-width: 0px !important;    
+        border-right-width: 1px !important;
+        border-right-color: #d1d1d1 !important;
+    }
+
+    .cc-pkg-2-4
+    {
+        border-left-width: 0px !important;    
+        border-right-width: 0px !important;
+    }
+
+    .cc-pkg-2-3, .cc-pkg-2-4 
+    {
+        border-radius: 0px 0px 0px 0px!important;
+        border-top-width: 1px !important;
+        border-top-color: #d1d1d1 !important;
+        padding-bottom: 80px !important;
+    }
+
+    /* TESTIMONIALS */
+    .testimonial_slider[data-style="multiple_visible_minimal"] .flickity-viewport {
+        overflow: visible;
+        position: relative;
+        margin-left: 0%;
+        margin-top: -10px!important;
+        width: 100%;
+    }
+
+    .testimonial_slider[data-style="multiple_visible_minimal"] blockquote {
+        width: 60%!important;
+        padding-top: 80px;
+        padding-bottom: 20px!important;
+        padding-right: 1.4%;
+        padding-left: 1.4%;
+    }
+            
+    .cc-col-3-reviews
+    {
+        visibility: hidden !important;
+        display: none !important;
+    }
+        
+    .cc-text-1-reviews
+    {
+        visibility: hidden !important;
+        display: none !important;
+    }
+
+    .flickity-page-dots 
+    {
+        display: none !important;
+    }
+
+    /* CONTACT US */
+    .wpcf7
+    {
+        margin-top: -40px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .cc-col-4-contact
+    {
+        margin-top: -20px !important;
+        padding-left: 30% !important;
+        padding-bottom: 30px !important;
+    }
+
+    .cc-title-2-contact
+    {
+        visibility: hidden !important;
+        display: none !important;    
+    }
+
+    /* FOOTER */
+    /* Footer - 2 Columns & Centered */
+    #footer-widgets .container .col 
+    {
+        width: 48.7% !important;
+        text-align: center !important;
+    }
+
+    /* Footer - Menu alignment */
+    .footer-menu-title, .footer-menu-item, .footer-menu-contact, .footer-menu-last, .footer-menu-link  
+    {
+        text-align: left !important;
+    }
+}
+
+/* SCREEN (MOBILE) */
+@media only screen and (min-width: 1px) and (max-width: 690px) {
+
+    /* WEBSITE (FRONT PAGE) */
+
+    /* GENERAL SETTINGS */
+    /* General Settings - Shape Divider */
+    .nectar-shape-divider-wrap[data-style="curve"] .nectar-shape-divider 
+    {
+        filter: blur(0.0px) !important;
+    }
+
+    /* CUSTOM CLASSES */
+    /* Custom Class - Title 1 */
+    .cc-title-1 
+    {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    /* Custom Class - Captions 1 */
+    .cc-captions-1 
+    {
+        /*display: none;*/
+        display: block;
+    }
+
+    /* NECTAR SLIDER */
+    /* Nectar Slider - Height */
+    body .parallax_slider_outer .swiper-container, body .parallax_slider_outer.first-section .nectar-slider-wrap, body .swiper-slide, body .nectar-slider-wrap, body .swiper-container {
+        height: 300px!important;
+    }
+
+        
+    /* Nectar Slider - Distance from top */
+    body .swiper-slide .content {
+        top: 80px !important;
+    }
+
+    /* Nectar Slider - Captions */
+    body .swiper-slide .content p  { 
+        display: none!important;
+    }
+    
+    /* PHOTO GALLERY */
+    /* Photo Gallery - Custom Class - Column spacing */
+    .cc-col-1-gallery
+    {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    /* VIDEO GALLERY */
+    /* Video Gallery - Background */
+    body .cc-row-4-video .row-bg 
+    {
+        background-size: auto !important;
+        -webkit-background-size: auto !important;
+        background-position: 100% 100% !important;
+    }
+
+    /* WHY US */
+    /* Why Us - Background */
+    body .cc-row-5-about .row-bg
+    {
+        background-size: auto !important;
+        -webkit-background-size: auto !important;
+        background-position: 20% 100%!important;
+    }
+
+    /* Why Us - Text Alignment */
+    .cc-paragraph-1-about
+    {
+        text-align: left !important;    
+    }
+
+    /* Why Us - Main Row Settings */
+    .cc-row-3-about
+    {
+        margin-top: -10px !important;
+    }
+
+    /* PHOTOGRAPHY PACKAGES */
+    .cc-html-2-pkg-1
+    {
+        height: 100%;
+    }
+
+    .cc-pkg-1-1, .cc-pkg-1-2, .cc-pkg-1-3, .cc-pkg-1-4 
+    {
+        padding-top: 3% !important;
+        padding-bottom: 20% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    .cc-pkg-1-1 
+    {
+        border-radius: 10px 10px 0px 0px!important;
+        border-right-width: 0px !important;
+        border-bottom-width: 1px !important;
+        border-bottom-color: #d1d1d1 !important;
+    }
+
+    .cc-pkg-1-2 
+    {
+        border-radius: 0px 0px 0px 0px!important;
+        border-right-width: 0px !important;
+        border-bottom-width: 1px !important;
+        border-bottom-color: #d1d1d1 !important;
+    }
+
+    .cc-pkg-1-4 
+    {
+        border-radius: 0px 0px 0px 0px!important;
+        border-left-width: 0px !important;
+        border-top-width: 1px !important;
+        border-top-color: #d1d1d1 !important;
+    }
+
+    /* VIDEOGRAPHY PACKAGES */
+    /* Videography Packages - Background */
+    body .cc-row-7-pkg-2 .row-bg 
+    {
+        background-size: auto !important;
+        -webkit-background-size: auto !important;
+        background-position: 100% 100%!important;
+    }
+
+    /* Videography Packages - Packages Setings */
+    .cc-html-3-pkg-2
+    {
+        height: 100%;
+    }
+
+    .cc-pkg-2-1, .cc-pkg-2-2, .cc-pkg-2-3, .cc-pkg-2-4 
+    {
+        padding-top: 3% !important;
+        padding-bottom: 12% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    .cc-pkg-2-1 
+    {
+        border-radius: 10px 10px 0px 0px !important; 
+        border-right-width: 0px !important;
+        border-bottom-width: 1px !important;
+        border-bottom-color: #d1d1d1 !important;    
+    }
+
+    .cc-pkg-2-3
+    {
+        border-radius: 0px 0px 0px 0px !important; 
+        border-right-width: 0px !important;
+        border-left-width: 0px !important;    
+        border-bottom-width: 1px !important;
+        border-bottom-color: #d1d1d1 !important;
+        border-top-width: 1px !important;
+        border-top-color: #d1d1d1 !important; 
+    }
+
+    .cc-pkg-2-4 {
+        border-radius: 0px 0px 0px 0px !important;
+        border-left-width: 0px !important;
+    }
+
+    /* TESTIMONIALS */
+    .cc-col-3-reviews
+    {
+        visibility: hidden !important;
+        display: none !important;
+    }
+        
+    .cc-text-1-reviews
+    {
+        visibility: hidden !important;
+        display: none !important;
+    }
+
+    .testimonial_slider[data-style="multiple_visible_minimal"] .flickity-viewport 
+    {
+        overflow: visible;
+        position: relative;
+        margin-left: 0%;
+        margin-top: -20px !important;
+        width: 100%;
+    }
+
+    .testimonial_slider[data-style="multiple_visible_minimal"] blockquote 
+    {
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 20px!important;
+        padding-right: 1.4%;
+        padding-left: 1.4%;
+    }
+        
+    .flickity-page-dots 
+    {
+        display: none !important;
+    }
+
+    /* CONTACT US */
+    .cc-col-4-contact
+    {
+        margin-top: -20px !important;
+        padding-left: 10% !important;
+        padding-bottom: 30px !important;
+    }
+
+    .cc-title-2-contact
+    {
+        visibility: hidden !important;
+        display: none !important;    
+    }
+
+    .wpcf7
+    {
+        width: 100%!important;
+        padding: 1% !important;
+        margin-top: -40px !important;
+        margin-bottom: 10px !important;
+    }
+
+    /* FOOTER */
+    /* Footer - 1 Column & Centered*/
+    #footer-widgets .container .col 
+    {
+        text-align: center !important;
+    }
+
+    /* Footer - Modal - Footer Button */
+    .modal-popup-box
+    {
+        text-align: center !important;
+    }
+
+    /* Footer - Contact Info Alignment */
+    .footer-menu-contact  
+    {
+        text-align: left !important;
+        padding-left: 3% !important;
+    }
+
+    /* INSTAGRAM WIDGET */
+    /* Instagram Widget - Overal position */
+    #sb_instagram 
+    {
+        margin-top: 20px;
+    }
+
+
+    /* PAGE (COMPLETE SERIES) */
+
+    /* Series - Custom Class - Space between pictures */
+    .cc-img-1
+    {
+        margin-bottom: 2px !important;
+    }
+
+    /* Series - Custom Class - Row padding */
+    .cc-row-12-series
+    {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 35px!important;
+    }
+}
